@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+html, body, #root {
+  height: 100%;
+}
+.chat-bubble {
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.chat-start .chat-bubble {
+  border-bottom-left-radius: 4px;
+}
+
+.chat-end .chat-bubble {
+  border-bottom-right-radius: 4px;
+}
